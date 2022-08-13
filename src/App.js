@@ -8,18 +8,10 @@ import { Card } from 'antd';
 
 
 function App() {
-  const [data, setData] = React.useState(null);
-  
-  // React.useEffect(() => {
-  //   fetch(`/tweet/${tweetId}`)
-  //     .then(response => { const r = response.json(); return r; })
-  //     .then((data) => { setData(data.source) })
-  // }, []);
 
   return (
-    <Card>      
-    <TweetLookup />    
-    {/* <TweetRender /> */}
+    <Card>
+      <TweetLookup />
     </Card>
   );
 }
