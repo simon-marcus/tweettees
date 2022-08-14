@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tweetText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 26px;
+  overflow-wrap: break-word;
+}
+
+.tweetAuthorName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tweetUserName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(83, 100, 113);
+}
+
+.tweetDate {
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.tweetAvatar {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.tweetImage {
+  width: 100%;
+  border-radius: 20px;
+}

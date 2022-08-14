@@ -11,9 +11,9 @@ app.get("/api/tweet/:id", (req, res) => {
   console.log(`Id is ${req.params.id}`);
   fetchTweet(req.params.id)
     .then((data) => {
-      const result = data.data;
+      const result = data;
       console.log(result);
-      res.json(result);})
+      res.send(result);})
 });
 
 

@@ -12,6 +12,7 @@ function App() {
   return (
     <Card>
       <TweetLookup />
+      {/* <img src='./assets/t-shirt.png' alt="t-shirt" className='t-shirt' /> */}
     </Card>
   );
 }
