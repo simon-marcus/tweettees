@@ -30,10 +30,13 @@ code {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: rgb(83, 100, 113);
+  font-weight: 400;
 }
 
 .tweetDate {
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .tweetAvatar {
@@ -44,4 +47,30 @@ code {
 .tweetImage {
   width: 100%;
   border-radius: 20px;
+}
+
+.quoteTweetText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  overflow-wrap: break-word;
+}
+
+.quoteTweetAvatar {
+  border-radius: 50%;
+  width: 20px;
+}
+
+.quoteTweetImage {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.t-shirt {
+  width: 70%;
+  margin: 0 auto;
+  min-width: 600px;
+  position: absolute;
+  
 }
