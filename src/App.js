@@ -1,4 +1,3 @@
-
 import React from "react";
 import { TweetLookup } from "./components/TweetLookup";
 import 'antd/dist/antd.css';
@@ -10,8 +9,8 @@ import { Card } from 'antd';
 function App() {
 
   return (
-    <Card>
-      <TweetLookup />
+    <Card>      
+      <TweetLookup />      
     </Card>
   );
 }
